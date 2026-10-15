@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-connect {
+    @apply bg-white/70 border border-input rounded-xl;
+  }
+}
