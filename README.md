@@ -27,7 +27,7 @@ flowchart LR
 ```
 
 - `app/`: file-based routes, `public/` (sign-in) and `protected/` (driver screen).
-- `src/http/generated/`: Orval output (not committed; run `npx orval` against a running backend, URL set in `orval.config.ts`); `src/env/index.ts`: Zod-validated environment.
+- `src/http/generated/`: Orval output (not committed; run `npx orval` with the backend OpenAPI file path set in `orval.config.ts`); `src/env/index.ts`: Zod-validated environment.
 
 ## Key decisions
 
