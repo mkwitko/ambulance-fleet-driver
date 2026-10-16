@@ -2,23 +2,23 @@
 export default ({ config }) => ({
   ...config,
   expo: {
-    name: "Connect Driver",
-    slug: "connect-driver",
+    name: "Ambulance Fleet Driver",
+    slug: "ambulance-fleet-driver",
     version: process.env.EXPO_PUBLIC_APP_VERSION || "1.0.0",
     orientation: "portrait",
     icon: "./assets/images/icon.png",
-    scheme: "connectdriver",
+    scheme: "ambulancefleetdriver",
     userInterfaceStyle: "automatic",
     newArchEnabled: true,
-    package: "com.connectapp.driver",
+    package: "com.ambulancefleet.driver",
     ios: {
       supportsTablet: true,
-      bundleIdentifier: "com.connectapp.driver",
+      bundleIdentifier: "com.ambulancefleet.driver",
     },
     android: {
       edgeToEdgeEnabled: true,
       predictiveBackGestureEnabled: false,
-      package: "com.connectapp.driver",
+      package: "com.ambulancefleet.driver",
     },
     web: {
       output: "static",

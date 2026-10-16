@@ -5,7 +5,7 @@ config();
 
 export default defineConfig({
   api: {
-    input: `../connect-server-refactor/swagger.json`, // Your OpenAPI spec URL
+    input: `../ambulance-fleet-api/swagger.json`, // Your OpenAPI spec URL
     output: {
       baseUrl: process.env.EXPO_PUBLIC_BACKEND, // Your API base URL
       clean: true,

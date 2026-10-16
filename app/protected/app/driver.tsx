@@ -75,7 +75,7 @@ export default function Driver() {
         <View className="px-6 pt-8 pb-6 flex-row items-center justify-between">
           <View className="gap-1">
             <Typography variant="title" weight="semibold">
-              Connect Driver
+              Ambulance Fleet Driver
             </Typography>
             <Typography variant="subtitle">
               Gestão de motoristas e ambulâncias

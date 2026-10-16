@@ -42,7 +42,7 @@ app-example
 /ios
 /android
 app-release.apk
-connect-driver.apk
+ambulance-fleet-driver.apk
 
 src/http/
 .env

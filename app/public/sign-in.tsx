@@ -228,7 +228,7 @@ export default function SignIn() {
         />
 
         <Typography variant="small" align="center" className="mt-4">
-          © {new Date().getFullYear()} — Connect - Gestão de Ambulâncias
+          © {new Date().getFullYear()} — Ambulance Fleet - Gestão de Ambulâncias
         </Typography>
       </View>
 
